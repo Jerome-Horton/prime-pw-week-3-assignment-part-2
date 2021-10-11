@@ -14,7 +14,7 @@ for (let i=0; i<4; i++) {
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 0 to 5');
 
-// FIX -- i<6;
+// FIX -- i<6; or i<=5
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
