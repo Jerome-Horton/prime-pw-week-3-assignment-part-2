@@ -15,18 +15,28 @@ for (let i=0; i<4; i++) {
 console.log('count from 0 to 5');
 
 // FIX -- i<6; or i<=5
+for (let i=0; i<=5; i++) {
+  console.log(i);
+}
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 3 to 5');
 
 // FIX -- i=3; i<=5;
+for (let i=3; i<=5; i++) {
+  console.log(i);
+}
+
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 
 // FIX -- i=2; i<=10; i+=2
+for (let i=2; i<=10; i+=2) {
+  console.log(i);
+}
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a counddown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
@@ -43,8 +53,8 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 console.log('Some stars:');
 
 // Review This//
-for (array of stars) {
-    console.log( 'stars:', array );
+for (let star of stars) {
+    console.log( 'stars:', star );
 }
 
 // 3. While loops
